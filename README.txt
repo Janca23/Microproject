@@ -2,8 +2,12 @@
 Lets get Creative :D
 
 
-Microproject “Web-site Analyzer” Objectives Write a command line program that analyses the structure of any given web-site. This means that starting from a given URL all links the refer to the same web-site are explored and eventually written to a file holding the result of the analysis. 
-The program is started the following way: ./analyze[.exe] http://orf.at This will cause the program to read the web-page identified by the given URL (“ http://orf.at ”) in this case, extracting all links (of type “http” or “https”, depending on the given URL) that refer to other page on the same site (all pages at “ http://orf.at ”). 
+Microproject “Web-site Analyzer” Objectives Write a command line program that analyses the structure of any given web-site. 
+This means that starting from a given URL all links the refer to the same web-site are explored and eventually written to a 
+file holding the result of the analysis. 
+The program is started the following way: ./analyze[.exe] http://orf.at This will cause the program to read the web-page 
+identified by the given URL (“ http://orf.at ”) in this case, extracting all links (of type “http” or “https”, 
+depending on the given URL) that refer to other page on the same site (all pages at “ http://orf.at ”). 
 While the program is working it keeps printing the currently analyzed web page: 
 READING: http://orf.at 
 READING: http://orf.at/ 
@@ -16,7 +20,10 @@ READING: http://orf.at/stories/2390719/ READING: http://orf.at/stories/2391289/
 READING: http://orf.at/stories/2391511/2391510/ READING: http://orf.at/stories/2391682/ 
 ... 
 
-Once all pages have been found the program prints something like this: There were 292 pages found on http://orf.at. Additionally all web pages found are written to a file called out.txt. Hints Web pages are written in HTML and links to other pages (or within a page) are represented by the href attribute of the anchor tag “<a> ”
+Once all pages have been found the program prints something like this: There were 292 pages 
+found on http://orf.at. Additionally all web pages found are written to a file called out.txt. 
+Hints Web pages are written in HTML and links to other pages (or within a page) are represented by the href attribute of the anchor tag 
+“<a> ”
 
 Links can have several forms:
 
