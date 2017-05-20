@@ -8,7 +8,9 @@ file holding the result of the analysis.
 The program is started the following way: ./analyze[.exe] http://orf.at This will cause the program to read the web-page 
 identified by the given URL (“ http://orf.at ”) in this case, extracting all links (of type “http” or “https”, 
 depending on the given URL) that refer to other page on the same site (all pages at “ http://orf.at ”). 
+
 While the program is working it keeps printing the currently analyzed web page: 
+
 READING: http://orf.at 
 READING: http://orf.at/ 
 READING: http://orf.at/#/ 
@@ -28,8 +30,16 @@ Hints Web pages are written in HTML and links to other pages (or within a page) 
 Links can have several forms:
 
 They can start with different protocols (eg. http, https, mailto, tel, ..)
+They can be relative (=they do not start with a protocol at all, see http://www.webreference.com/html/tutorial2/3.html 
+for an explanation) You need to follow all links that belong to the same web site (= that have a common base URL). 
+Do not follow any links to other web-sites! Be aware that every page can have links to any other page! So avoid 
+getting trapped in circles make sure that every web page is visited only once! 
 
-They can be relative (=they do not start with a protocol at all, see http://www.webreference.com/html/tutorial2/3.html for an explanation) You need to follow all links that belong to the same web site (= that have a common base URL). Do not follow any links to other web-sites! Be aware that every page can have links to any other page! So avoid getting trapped in circles make sure that every web page is visited only once! Submission You can do this project alone or in groups of two, whichever scenario you prefer. Your final version needs to be uploaded to moodle.
+Submission 
+
+You can do this project alone or in groups of two, whichever scenario you prefer. 
+Your final version needs to be uploaded to moodle.
+
 Your program has to start with a comment section that includes:
 
 Author(s)
