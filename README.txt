@@ -16,31 +16,20 @@ READING: http://orf.at/stories/2390719/ READING: http://orf.at/stories/2391289/
 READING: http://orf.at/stories/2391511/2391510/ READING: http://orf.at/stories/2391682/ 
 ... 
 
-Once all pages have been found the program prints something like this: There were 292 pages found on http://orf.at. Additionally all web pages found are written to a file called out.txt. Hints Web pages are written in HTML and links to other pages (or within a page) are represented by the href attribute of the anchor tag “ ”
+Once all pages have been found the program prints something like this: There were 292 pages found on http://orf.at. Additionally all web pages found are written to a file called out.txt. Hints Web pages are written in HTML and links to other pages (or within a page) are represented by the href attribute of the anchor tag “<a> ”
 
 Links can have several forms:
 
 They can start with different protocols (eg. http, https, mailto, tel, ..)
 
-They can be relative (=they do not start with a protocol at all, see http://www.webreference.com/html/tutorial2/3.html for an explanation) You need to follow all links that belong to the same web site (= that have a common base URL). Do not follow any links to other web-sites! Be aware that every page can have links to any other page! So avoid getting trapped in circles make sure that every web page is visited only once! Submission You can do this project alone or in groups of two, whichever scenario you prefer. Your final version needs to be uploaded to moodle. Your program has to start with a comment section that includes:
-
-Author(s)
-
-List of all external libraries that need to get installed for the program to run No other comments are allowed! The submission is followed by a submission interview in which you are asked about your program and might be invited to perform some minor changes on the fly. This will make sure that you have understood what you were doing. Deadline: June 26th 2017, 8:00am
-You need to follow all links that belong to the same web site (= that have a common base URL). Do\n
-not follow any links to other web-sites!\n
-Be aware that every page can have links to any other page!\n
-So avoid getting trapped in circles make sure that every web page is visited only once!\n
-Submission\n
-You can do this project alone or in groups of two, whichever scenario you prefer. Your final version \n
-needs to be uploaded to moodle.\n
+They can be relative (=they do not start with a protocol at all, see http://www.webreference.com/html/tutorial2/3.html for an explanation) You need to follow all links that belong to the same web site (= that have a common base URL). Do not follow any links to other web-sites! Be aware that every page can have links to any other page! So avoid getting trapped in circles make sure that every web page is visited only once! Submission You can do this project alone or in groups of two, whichever scenario you prefer. Your final version needs to be uploaded to moodle.
 Your program has to start with a comment section that includes:
 
 Author(s)
-
 List of all external libraries that need to get installed for the program to run
+
 No other comments are allowed!
 The submission is followed by a submission interview in which you are asked about your program 
 and might be invited to perform some minor changes on the fly. This will make sure that you have 
 understood what you were doing.
-Deadline:  June 26th 2017, 8:00am
+Deadline: June 26th 2017, 8:00am
